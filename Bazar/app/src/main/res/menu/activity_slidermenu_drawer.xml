@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Marketplace"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Marketplace" />
+        <item
+            android:id="@+id/SellItems"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Продать Товар" />
+        <item
+            android:id="@+id/MySale"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Мои товары" />
+        <item
+            android:id="@+id/Cart"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Карты" />
+    </group>
+
+    <item android:title="Аккаунты">
+        <menu>
+            <item
+                android:id="@+id/AccountSettings"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Настройка учетной записи" />
+            <item
+                android:id="@+id/Finances"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Мои Финансы" />
+        </menu>
+    </item>
+
+</menu>
